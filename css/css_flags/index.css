@@ -2,7 +2,347 @@
 .france{
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    height: 300px 300px 300px;
-    background-color: blue white red;
-    
+}
+
+.franceBlue{
+    /* display: grid; */
+    /* width: 100px; */
+    height: 300px;
+    background-color: blue;   
+}
+
+.franceWhite{
+    /* display: grid; */
+    /* width: 100px; */
+    height: 300px;
+    background-color: white;   
+}
+
+.franceRed{
+    /* display: grid; */
+    /* width: 100px; */
+    height: 300px;
+    background-color: red;   
+}
+
+.germany{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.germanyBlack{
+    /* display: inline-block;
+    width: 100px; */
+    height: 300px;
+    background-color: black;
+}
+
+.germanyRed{
+    /* display: inline-block;
+    width: 100px; */
+    height: 300px;
+    background-color: red;
+}
+
+.germanyYellow{
+    /* display: inline-block;
+    width: 100px; */
+    height: 300px;
+    background-color: yellow;
+}
+
+.madagascarWhite{
+    display: grid;
+    height: 300px;
+    background-color: white; 
+}
+
+.madagascarRed{
+    display:block;
+    position: relative;
+    left: 100px;
+    bottom: 300px;
+    height: 150px;
+    width: 200px;
+    background-color: red;
+}
+
+.madagascarGreen{
+    display: block;
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+    height: 150px;
+    width: 200px;
+    background-color: green;
+}
+
+.switzerlandRed{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+
+}
+
+.switzerlandWhiteVertical{
+    display: grid;
+    position: relative;
+    bottom: 175px;
+    left: 75px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+
+.switzerlandWhiteHorizontal{
+    display: grid;
+    position: relative;
+    bottom: 275px;
+    left: 125px;
+    width: 50px;
+    height: 150px;
+    background-color: white;
+}
+
+.swedenBlue{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.swedenYellowVertical{
+    position: relative;
+    bottom: 200px;
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.swedenYellowHorizontal{
+    position: relative;
+    bottom: 350px;
+    left: 75px;
+    width: 50px;
+    height: 300px;
+    background-color: yellow;
+}
+
+.gambiaRed{
+    display: grid;
+    height: 100px;
+    width: 300px;
+    background-color: red;
+}
+
+.gambiaWhiteMarginTop{
+    display: grid;
+    height: 15px;
+    width: 300px;
+    background-color: white;
+}
+
+.gambiaBlueWhiteMargin{
+    display: grid;
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+    /* border-top: 20px white;
+    border-bottom: 20px white; */
+}
+
+.gambiaWhiteMarginBottom{
+    display: grid;
+    height: 15px;
+    width: 300px;
+    background-color: white;
+}
+
+.gambiaGreen{
+    display: grid;
+    height: 100px;
+    width: 300px;
+    background-color: green;
+}
+
+.tongaRed{
+    display: grid;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+.tongaWhite{
+    display: grid;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+}
+
+.tongaRedVertical{
+    position: relative;
+    bottom: 385px;
+    left: 35px;
+    width: 75px;
+    height: 25px;
+    background-color: red;
+}
+
+.tongaRedHorizontal{
+    position: relative;
+    bottom: 435px;
+    left: 60px;
+    width: 25px;
+    height: 75px;
+    background-color: red;
+}
+
+.japanWhite{
+    display: grid;
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+}
+
+.japanRedCircle {
+    position: relative;
+    bottom: 200px;
+    left:100px;
+    border-radius: 50% ;
+    width: 100px ;
+    height: 100px;
+    border: 2px solid crimson;
+    background-color: crimson;
+}
+
+.greeceBlue{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+
+}
+.greeceCrossVertical{
+    position: relative;
+    bottom: 270px;
+    width: 100px;
+    height: 34px;
+    background-color: white;
+}
+    /* position: relative;
+    bottom: 385px;
+    left: 35px;
+    width: 75px;
+    height: 25px;
+    background-color: red; */
+
+.greeceCrossHorizontal{
+    position: relative;
+    bottom: 334px;
+    left: 32px;
+    width: 34px;
+    height: 100px;
+    background-color: white;
+}
+
+.greeceHorizontalOne{
+    position: relative;
+    bottom: 425px;
+    left:100px;
+    width: 200px;
+    height: 24px;
+    background-color: white;
+}
+
+.greeceHorizontalTwo{
+    position: relative;
+    bottom: 395px;
+    left: 100px;
+    width: 200px;
+    height: 24px;
+    background-color: white;
+}
+
+.greeceHorizontalThree{
+    position: relative;
+    bottom: 375px;
+    width: 300px;
+    height: 24px;
+    background-color: white;
+}
+.greeceHorizontalFour{
+    position: relative;
+    bottom: 330px;
+    width: 300px;
+    height: 24px;
+    background-color: white;
+}
+.greeceHorizontalFive{
+    position: relative;
+    bottom: 295px;
+    width: 300px;
+    height: 24px;
+    background-color: white;
+}
+
+.nigerOrange{
+    display: grid;
+    height: 100px;
+    width: 300px;
+    background-color: orangered;
+}
+
+.nigerWhite{
+    display: grid;
+    height: 100px;
+    width: 300px;
+    background-color: white;
+}
+
+.nigerGreen{
+    display: grid;
+    height: 100px;
+    width: 300px;
+    background-color: green;
+}
+
+.nigerOrangeCircle{
+    position: relative;
+    bottom: 200px;
+    left:100px;
+    border-radius: 50% ;
+    width: 100px ;
+    height: 100px;
+    border: 2px solid orangered;
+    background-color: orangered;
+}
+
+.maldivesRed{
+    display: grid;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+.maldivesGreen{
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    display: grid;
+    height: 150px;
+    width: 200px;
+    background-color: green;
+}
+
+.maldivesWhiteCresentMoon{
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+    border-radius: 50% ;
+    width: 100px ;
+    height: 100px;
+    border: 2px solid white;
+    background-color: white;
 }
