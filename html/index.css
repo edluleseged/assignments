@@ -1,0 +1,27 @@
+h1{
+    color:green;
+    font-size:Georgia;
+    text-align: center;
+}
+h2{
+    font-size:Georgia;
+    text-align: center;
+}
+.paragraphs{
+    line-height: 25px;
+}
+a{
+    text-underline-position: unset;
+    
+}
+a.hover{
+    text-decoration: underline;
+}
+.uppercase{
+    text-transform:uppercase ;
+}
+img{
+    float: left;
+    width: 200px;
+    margin: 20px ;
+}

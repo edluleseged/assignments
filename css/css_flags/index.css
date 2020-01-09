@@ -1,0 +1,8 @@
+
+.france{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    height: 300px 300px 300px;
+    background-color: blue white red;
+    
+}

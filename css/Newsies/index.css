@@ -1,0 +1,9 @@
+h1{
+    font-size: xx-large;
+    color: red;
+}
+
+.paragraph{
+    display:inline-block;
+    width: 45%
+}
