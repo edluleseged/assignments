@@ -336,7 +336,7 @@
     background-color: green;
 }
 
-.maldivesWhiteCresentMoon{
+.maldivesWhiteCresentMoonWhite{
     position: relative;
     bottom: 350px;
     left: 100px;
@@ -345,4 +345,15 @@
     height: 100px;
     border: 2px solid white;
     background-color: white;
+}
+
+.maldivesWhiteCresentMoonGreen{
+    position: relative;
+    bottom: 470px;
+    left: 120px;
+    border-radius: 50% ;
+    width: 100px ;
+    height: 100px;
+    border: 2px solid green;
+    background-color: green;
 }

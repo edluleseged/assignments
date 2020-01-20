@@ -1,0 +1,14 @@
+/* styles.css
+☑ Any amount of CSS you’d like to add to your project to style it, but there should at least be some styling added.
+☑ An HTML element should be referenced and styled in CSS
+☑ A class should be referenced and styled in CSS
+*/
+
+body{
+    background-color: bisque;
+}
+
+.paragraph{
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
